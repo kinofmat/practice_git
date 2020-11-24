@@ -28,7 +28,7 @@ while again == "y" or again == "Y":
         else:
             print("Congrats, you won!", value, "cut", computer)
     else:
-        print("That's not a valid play. Check your spelling!")
+        print("I cannot understand. Maybe check your spelling.")
     count += 1
     print(count)
     if count%3 == 0:
