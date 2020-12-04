@@ -30,7 +30,6 @@ while again == "y" or again == "Y":
     else:
         print("I cannot understand. Maybe check your spelling.")
     count += 1
-    print(count)
     if count%3 == 0:
         again = input("Do you want to play again? (y/n) ")
     computer = t[randint(0,2)]
