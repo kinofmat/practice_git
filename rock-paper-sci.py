@@ -19,14 +19,14 @@ while again == "y" or again == "Y":
             print("You win!", value, "smashes", computer)
     elif value == "Paper":
         if computer == "Scissors":
-            print("Sorry, you lost!", computer, "cut", value)
+            print("Sorry! you lost!", computer, "cut", value)
         else:
             print("Congrats, you won!", value, "covers", computer)
     elif value == "Scissors":
         if computer == "Rock":
             print("You lost!", computer, "smashes", value)
         else:
-            print("Congrats, you won!", value, "cut", computer)
+            print("Congrats! you won!", value, "cut", computer)
     else:
         print("I cannot understand. Maybe check your spelling.")
     count += 1
