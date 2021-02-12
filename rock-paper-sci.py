@@ -39,6 +39,7 @@ while again == "y" or again == "Y":
         print("I cannot understand. Maybe check your spelling.")
     count += 1
     if count%3 == 0:
+        # This part tests for how many wins the player has to use the plural correctly. 
         if w > 1:
             print("You won a total of {} times and lost {} time." .format(w, l))
         elif l > 1:
@@ -52,7 +53,7 @@ while again == "y" or again == "Y":
         elif l == 3:
             print("You didn't win any time. That's too bad. Maybe try again?")
         again = input("Do you want to play again? (y/n) ")
-        if again == y:
+        if again == y: # Reset wins counters.
             w = 0
             l = 0
     computer = t[randint(0,2)]
